@@ -1,6 +1,11 @@
 html[dir] ._1kdBg {
   background-color: #2f4f4f !important;
 }
+body {
+  background-color: black !important;
+  color: white !important;
+  background-color: darkgreen !important;
+}
 ._2dH1A {
   color: white !important;
 }
@@ -223,9 +228,6 @@ html[dir] ._3ZqlX {
 html[dir] .G_MLO {
   background-color: #272727 !important;
 }
-body {
-  color: white !important;
-}
 .S7_rT._1hQZ_:hover {
   background-color: #454545 !important;
 }
@@ -393,4 +395,16 @@ html[dir] ._2gSSF {
 }
 ._1pNt0 {
   color: antiquewhite !important;
+}
+._1-9IA {
+  color: cadetblue !important;
+}
+html[dir] ._2iML2 {
+  background-color: #242424 !important;
+}
+._3PNvA, .gqmGx {
+  color: burlywood !important;
+}
+._1uP6d {
+  color: burlywood !important;
 }
