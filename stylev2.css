@@ -367,6 +367,9 @@ html[dir] ._9WQEN {
 .matched-mention .at-symbol {
     color: #039be5 !important;
 }
+.matched-mention {
+  color: #039be5 !important;
+}
 html[dir] ._1tbWk {
   background-color: #2D2D2D !important;
 }
