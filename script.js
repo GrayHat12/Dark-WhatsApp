@@ -1,4 +1,4 @@
-function load() {
+/*function load() {
   try {
     document.getElementsByClassName("_2nmDZ")[0].style.background = "#1F1F20";
   } catch (ex) {}
@@ -71,4 +71,17 @@ function load() {
     } catch (ex) {}
   }
 }
-alert('loaded')
+alert('loaded')*/
+/*
+0,0,0 - 255,255,255
+255,255,255 - 0,0,0
+color.r = 255 - color.r
+color.g = 255 - color.g
+color.b = 255 - color.b
+*/
+/*var all = document.getElementsByTagName("*");
+
+for (var i=0, max=all.length; i < max; i++) {
+     var element = all[i];
+     
+}*/

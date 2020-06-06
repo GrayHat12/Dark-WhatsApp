@@ -1,6 +1,6 @@
 {
   "name": "WhatsApp Dark Mode",
-  "version": "1.1",
+  "version": "2.1",
   "description": "Enables dark mode whatsapp on web",
   "manifest_version": 2,
   "author": "GrayHat",
@@ -20,8 +20,8 @@
   "content_scripts": [
     {
       "matches": ["https://web.whatsapp.com/*"],
-      "css": ["style.css"]
+      "css": ["stylev2.css"]
     }
   ],
-  "web_accessible_resources": ["style.css"]
+  "web_accessible_resources": ["stylev2.css"]
 }
