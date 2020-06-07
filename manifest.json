@@ -1,26 +1,25 @@
 {
   "name": "WhatsApp Dark Mode",
-  "version": "2.1",
+  "version": "2.2",
   "description": "Enables dark mode whatsapp on web",
   "manifest_version": 2,
   "author": "GrayHat",
-  "browser_action": {
-    "default_popup": "index.html",
-    "default_icon": "profile0.png"
-  },
-  "permissions": [
-    "https://web.whatsapp.com/*"
-  ],
-  "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+F",
-        "mac": "MacCtrl+Shift+F"
-      },
-      "description": "Opens index.html"
+  "page_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
     }
   },
-  "incognito" : "split",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["https://web.whatsapp.com/*"],
+  "incognito": "split",
   "offline_enabled": true,
   "content_scripts": [
     {
